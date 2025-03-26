@@ -28,14 +28,14 @@ const [single,setSingle]=useState(0)
     return(
         <div>
             <h2>Player: bangladesh</h2>
-            {runs>50 && alert('Yayyy!!! Half Century')}
+            {runs>50 &&  alert('Yayyy!!! Half Century')}
             {runs>100 && alert('Yayyy!!! Half Century')}
             <h3>Score:{runs}</h3>
             <button onClick={singles}>Singles:</button>
             <button onClick={fours}>Four's:</button>
             <button onClick={six}>Six's:</button>
             <br />
-            <p >6's:{sixes}</p><p>4's:{four}</p><p>1's{single}</p>
+            <p >6's:{sixes}</p><p>4's:{four}</p><p>1's:{single}</p>
         </div>
     )
 }
